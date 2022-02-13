@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import ERC20 from './USDToken.json';
+//import ERC20 from './USDToken.json';
 
 let web3 = new Web3('https://alfajores-forno.celo-testnet.org')
 

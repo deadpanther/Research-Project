@@ -35,7 +35,9 @@ app.post('/updateData', async function(req, res){
             res.send({"error": true, "message": dbResponse.message})
         }
         let hash = getHash(data)
-        console.log("Storing the hash on the Blockchain")
+
+        console.log("Storing the hash on the Blockchain") // Part Pending
+
         let response = {"error": false, "message": {"_id": dbResponse.message, "data_hash": hash}}
         res
         .status(200)
